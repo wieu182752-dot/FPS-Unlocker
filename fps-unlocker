@@ -19,7 +19,7 @@ if [ ! -d $settings_path ]; then
     mkdir $settings_path
 fi
 
-echo "Please choose an FPS cap: ${YELLOW}(anything above 120 FPS switches to Vulkan Renderer, which is experimental)${NC}"
+echo "Please choose an FPS cap: ${YELLOW}(anything above 500FPS switches to Vulkan Renderer, which is experimental)${NC}"
 read fps
 
 settings="{ \"DFIntTaskSchedulerTargetFps\": $fps }"
